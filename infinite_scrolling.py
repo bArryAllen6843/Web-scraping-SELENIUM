@@ -24,6 +24,7 @@ while itemTargetCount > len(items):
 
     new_height = browser.execute_script("return document.body.scrollHeight")
 
+    # it means there exist only 1 page
     if new_height == last_height:
         break
 
